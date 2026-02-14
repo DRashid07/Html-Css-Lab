@@ -35,23 +35,34 @@
 }
 
 .main-right{
-    max-width:400px;
+    max-width: 400px;
+    margin: 10px 0;
+    position: absolute;
+    right: 100px; 
+    bottom: 50%;
+    
 }
 
 .main-header h1{
-    margin:10px 0;
+    margin: 10px 0;
+    position: absolute;
+    right: 100px; 
+    bottom: 90%;
+    
 }
 
 .main-button{
-    background:rgb(235, 151, 141);
-    color:#fff;
-    padding:12px;
-    width:150px;
-    text-align:center;
-    margin-top:20px;
-    cursor:pointer;
+    background: rgb(235, 151, 141);
+    color: #fff;
+    padding: 12px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 100px; 
+    top: 90%;
+    
 }
-
 .footer-color{
     height:80px;
     background:rgb(235, 151, 141);
@@ -61,4 +72,11 @@
 .footer{
     text-align:center;
     padding:10px;
+}
+
+
+
+.size li:hover {
+    background-color: rgb(235, 151, 141);
+    color: #fff;
 }
