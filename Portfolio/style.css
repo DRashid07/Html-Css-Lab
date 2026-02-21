@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+#card{
+    background: #fff;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+
+
+.header{
+    background: #15ff00;
+    width: 300px;
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    overflow:visible;
+    text-align: center;
+    padding: 30px 20px 20px;
+}
+
+.header-icon i{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.header h1{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.header p{
+    color: #888;
+    font-size: 14px;
+}
+
+
+
+.content-socials{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content-socials div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+
+.content-socials div i{
+    font-size: 20px;
+    color: green;
+    min-width: 25px;
+}
+
+
+.content-socials p{
+    font-size: 14px;
+    color: #333;
+}
+
+
+.end{
+    background-color: rgb(106, 221, 106);
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    overflow: visible;
+}
+
+.socials a{
+    color: #555;
+    font-size: 18px;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+
+#footer{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+}
+
+#footer i{
+    color: red;
+}
+
+#footer span{
+    position: relative;
+    float: inline-end;
+    font-weight: bold;
+    color: white;
+}

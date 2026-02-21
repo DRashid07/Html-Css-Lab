@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+
+
+#header{
+    width:400px;
+    border-radius:30px;
+    overflow:visible;
+    box-shadow:0 15px 40px rgba(0,0,0,0.15);
+    background:white;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+
+
+.header-header{
+    background:linear-gradient(83deg, rgba(232,128,49,1) 30%, rgba(224,65,65,1) 86%);
+    padding:40px;
+    color:white;
+    position:relative;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.main-logo img{
+    height:50px;
+}
+
+.header{
+    margin-top:20px;
+}
+
+.header-desc{
+    width:55%;
+    margin-top:15px;
+    line-height:1.6;
+    font-size:14px;
+}
+
+
+.header-image{
+    position:absolute;
+    left:200px;
+    top:200px;
+}
+
+.header-image img{
+    width:350px;
+    transform:scaleX(-1);
+}
+
+
+
+.main{
+    padding:40px;
+}
+
+.main-header{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.header-button button{
+    background:rgb(101, 202, 101);
+    border:none;
+    padding:6px 14px;
+    border-radius:10px;
+    color:white;
+    font-size:12px;
+}
+
+.main-desc{
+    margin:15px 0;
+    font-weight:bold;
+    color:#888;
+}
+
+
+
+.star-icon ul{
+    display:flex;
+    list-style:none;
+    gap:8px;
+    margin-bottom:20px;
+}
+
+.star-icon i{
+    color:black;
+}
+
+
+.size p{
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.size-button ul{
+    display:flex;
+    list-style:none;
+    gap:10px;
+}
+
+.size-button li{
+    padding:8px 14px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.size-button li:hover{
+    background:linear-gradient(83deg, rgba(232,128,49,1) 30%, rgba(224,65,65,1) 86%);
+    color:white;
+    border:none;
+}
+
+
+.colour{
+    position: relative;
+    top:70px;
+}
+
+.colour-button .red{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:red;
+    cursor:pointer;
+}
+.colour-button .green{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:green;
+    cursor:pointer;
+}
+.colour-button .yellow{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:yellow;
+    cursor:pointer;
+}
+.price{
+    margin-top:30px;
+}
+
+.price-button button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:greenyellow;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+    transition:0.3s;
+    position: relative;
+    left: 120px;
+}
+
+.price-button button:hover{
+    background:green;
+}
